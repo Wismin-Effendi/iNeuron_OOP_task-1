@@ -1,0 +1,51 @@
+INFO 2022-07-15 21:19:53,112 root Processing for collection type list
+INFO 2022-07-15 21:19:53,112 root Extracting collection from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {5, 4, 45, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science ']]
+INFO 2022-07-15 21:19:53,112 root Result: [[1, 2, 3, 4], ['ineuron', 'data science ']]
+INFO 2022-07-15 21:19:53,113 root Extracting numbers from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {5, 4, 45, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science ']]
+INFO 2022-07-15 21:19:53,121 root Output numbers: [1, 2, 3, 4]
+INFO 2022-07-15 21:19:53,121 root Adding number from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {5, 4, 45, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science ']]
+INFO 2022-07-15 21:19:53,121 root Sum of the numbers = 10
+INFO 2022-07-15 21:19:53,121 root Extract Odd numbers from input_data: [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {5, 4, 45, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science ']]
+INFO 2022-07-15 21:19:53,121 root Odd numbers are: [1, 3]
+INFO 2022-07-15 21:19:53,121 root Count occurrence of Elements from input data: [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {5, 4, 45, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science ']]
+INFO 2022-07-15 21:19:53,121 root Count of occurrence: defaultdict(<class 'int'>, {1: 1, 2: 1, 3: 1, 4: 1, 'ineuron': 1, 'data science ': 1})
+INFO 2022-07-15 21:19:53,121 root Filtering string element from input: [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {5, 4, 45, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science ']]
+INFO 2022-07-15 21:19:53,121 root String output: ['ineuron', 'data science ']
+INFO 2022-07-15 21:19:53,121 root Filter alphanumeric from input list: [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {5, 4, 45, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science ']]
+INFO 2022-07-15 21:19:53,121 root Alphanumeric output: ['ineuron']
+INFO 2022-07-15 21:19:53,121 root Multiply the numeric elements of the list in [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {5, 4, 45, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science ']]
+INFO 2022-07-15 21:19:53,121 root Multiplication result: [24]
+INFO 2022-07-15 21:19:53,122 root Processing for collection type tuple
+INFO 2022-07-15 21:19:53,122 root Extracting collection from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {5, 4, 45, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science ']]
+INFO 2022-07-15 21:19:53,122 root Result: [(2, 3, 4, 5, 6), (3, 4, 5, 6, 7)]
+INFO 2022-07-15 21:19:53,122 root Extracting numbers from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {5, 4, 45, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science ']]
+INFO 2022-07-15 21:19:53,122 root Output numbers: [2, 3, 4, 5, 6, 3, 4, 5, 6, 7]
+INFO 2022-07-15 21:19:53,122 root Adding number from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {5, 4, 45, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science ']]
+INFO 2022-07-15 21:19:53,122 root Sum of the numbers = 45
+INFO 2022-07-15 21:19:53,122 root Extract Odd numbers from input_data: [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {5, 4, 45, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science ']]
+INFO 2022-07-15 21:19:53,122 root Odd numbers are: [3, 5, 7]
+INFO 2022-07-15 21:19:53,122 root Count occurrence of Elements from input data: [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {5, 4, 45, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science ']]
+INFO 2022-07-15 21:19:53,122 root Count of occurrence: defaultdict(<class 'int'>, {2: 1, 3: 2, 4: 2, 5: 2, 6: 2, 7: 1})
+INFO 2022-07-15 21:19:53,122 root Filtering string element from input: [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {5, 4, 45, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science ']]
+INFO 2022-07-15 21:19:53,122 root String output: []
+INFO 2022-07-15 21:19:53,122 root Filter alphanumeric from input list: [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {5, 4, 45, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science ']]
+INFO 2022-07-15 21:19:53,122 root Alphanumeric output: []
+INFO 2022-07-15 21:19:53,122 root Multiply the numeric elements of the list in [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {5, 4, 45, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science ']]
+INFO 2022-07-15 21:19:53,122 root Multiplication result: [720, 2520]
+INFO 2022-07-15 21:19:53,122 root Processing for collection type set
+INFO 2022-07-15 21:19:53,122 root Extracting collection from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {5, 4, 45, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science ']]
+INFO 2022-07-15 21:19:53,122 root Result: [{5, 4, 45, 23}]
+INFO 2022-07-15 21:19:53,122 root Extracting numbers from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {5, 4, 45, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science ']]
+INFO 2022-07-15 21:19:53,122 root Output numbers: [5, 4, 45, 23]
+INFO 2022-07-15 21:19:53,123 root Adding number from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {5, 4, 45, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science ']]
+INFO 2022-07-15 21:19:53,123 root Sum of the numbers = 77
+INFO 2022-07-15 21:19:53,123 root Extract Odd numbers from input_data: [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {5, 4, 45, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science ']]
+INFO 2022-07-15 21:19:53,123 root Odd numbers are: [45, 5, 23]
+INFO 2022-07-15 21:19:53,123 root Count occurrence of Elements from input data: [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {5, 4, 45, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science ']]
+INFO 2022-07-15 21:19:53,123 root Count of occurrence: defaultdict(<class 'int'>, {5: 1, 4: 1, 45: 1, 23: 1})
+INFO 2022-07-15 21:19:53,123 root Filtering string element from input: [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {5, 4, 45, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science ']]
+INFO 2022-07-15 21:19:53,123 root String output: []
+INFO 2022-07-15 21:19:53,123 root Filter alphanumeric from input list: [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {5, 4, 45, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science ']]
+INFO 2022-07-15 21:19:53,123 root Alphanumeric output: []
+INFO 2022-07-15 21:19:53,123 root Multiply the numeric elements of the list in [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {5, 4, 45, 23}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science ']]
+INFO 2022-07-15 21:19:53,123 root Multiplication result: [20700]
